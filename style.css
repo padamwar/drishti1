@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+  
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mainheader .logo img{
+    padding-left: 60px;
+   
+}
+
+.mainheader nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+
+}
+.mainheader nav  a{
+    text-decoration: none;
+    color: darkblue;
+    
+}
+.menubtn{
+    margin-right: 60px;
+}
+.bar{
+    font-size: 18px;
+}
+.mainheader button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    background-color: orangered;
+    border-radius: 20px;
+
+}
+@media(max-width:992px){
+    .bar{
+        display: none;
+       
+        
+    }
+    #services{
+        padding: 40px 40px;
+    
+    }
+    a.btnn{
+        margin: 30px 0px;
+        width: 150px;
+        padding:  10px 25px;
+        border-radius: 20px;
+      
+    
+    }
+    
+    .big-text{
+        font-size: 15px;
+        font-weight: 20;
+        text-align: center;
+        
+       
+    }
+    .big-text1{
+        word-spacing: 2px;
+        font-size: 15;
+       
+        text-align: center;
+        
+       
+    }
+    a.btn-first{
+        background-color: orangered;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .promo-title1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .col-md-6 {
+        padding-top: 60px;
+    }
+    .promo-title{
+        font-size: 25px;
+        font-weight: 300;
+      
+        padding-top: 70%;
+        text-align: center;
+    }
+    .big-text {
+        font-size: 20px;
+       
+    }
+    .menubtn{
+        margin-right: 10px;
+        display: none;
+    }
+    .header{
+        background-image: none;
+        background-repeat: no-repeat;
+       
+        
+
+    }
+    a.btn-sec{
+        background-color: rgb(226, 181, 164);
+        color: black;
+        font-size: 25px;
+        padding:  10px 25px;
+       
+    }
+
+    
+   
+    }
+
+    .big-text{
+        font-size: 40px;
+        margin: 20px 0;
+    }
+    a.btn{
+        margin: 30px 10px;
+        width: 150px;
+        padding: 10px;
+        border-radius: 20px;
+
+    }
+    a.btn-first{
+        background-color: orangered;
+        color: white;
+    }
+    a.btn-sec{
+        background-color: rgb(230, 188, 172);
+        font: bold;
+        color: black;
+        font-size: 15px;
+        padding:  10px 25px;
+    }
+
+    .banner-info ,.banner-img{
+
+        margin: 30px;
+        }
+    .icon-bar{
+        background-color: black;
+    }
+    .promo-title{
+       font-size: 40px;
+       font-weight: 600;
+       margin-top: 0px;
+       padding-top: 40px;
+   }
+    .promo-title1{
+        font-size: 15px;
+    }
+
+    a.btnn{
+    margin: 30px 0px;
+    width: 150px;
+    padding:  10px 25px;
+    border-radius: 20px;
+
+}
+#services{
+    padding: 90px 90px;
+
+}
+.service-img{
+    width: 70px;
+    margin-top: 20px;
+    
+}
+.services{
+    padding: 20px;
+}
+.services .h3{
+    padding: 5px;
+    margin: 25px;
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 10px 25px ;
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+}
+.title{
+    font-size: 30px;
+
+}
+#simple{
+    background-color: orangered;
+    color: white;
+    padding: 80px 80px;
+    font-weight: bolder;
+}
+#simples .btn-secondary{
+
+ 
+    padding: 10px 25px ;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: orangered;
+}
+
+
+
+
+
+/*#footer{
+    background-color: black;
+    color: white;
+}
+.footer-img{
+    width: ;
+}
+
+
+.social-links{
+    text-align: center;
+    justify-content: left;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid  white;
+    margin: 40px 5px 0;
+    color: white;
+    cursor: pointer;
+}
+.social-links .fa:hover{
+    background:  white;
+    color: orangered;
+    transform: translate(-9px);
+}
+.footer .h1{
+   word-spacing: 2px;
+}
+.footer-box{
+    padding: 20px;
+}*/
+
+#footer-top{
+   background: black;
+   color: white;
+   padding: 80px;
+}
+.segment-one h1{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+.segment-two ul li{
+    font-size: 20px;
+    color: white;
+
+}
+.segment-three ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+.segment-three ul li{
+    font-size: 20px;
+    color: white;
+
+}
+.segment-three ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.segment-one {
+    text-align: center;
+    justify-content: left;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+.segment-one .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid  white;
+    margin: 40px 5px 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+.segment-one .fa:hover{
+    background:  white;
+    color: orangered;
+    transform: translate(-9px);
+}
+.segment-four p{
+    color: white;
+}
+.segment-four form input[type=submit]{
+    background: orangered;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color:white;
+    border-radius: 20px;
+}
+.segment-four form input[type=email]{
+    border-radius: 20px;
+} 
+@media only screen and (min-width:768px)and (max-width: 991px){
+    .md-mb-30{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:767px){
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+    .footer-top{
+        padding: 50px 0;
+    }
+
+}
+
